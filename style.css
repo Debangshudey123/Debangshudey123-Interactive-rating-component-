@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Overpass:wght@400;700&family=Space+Grotesk:wght@500&display=swap');
+:root{
+    --White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+ --VeryDarkBlue: hsl(216, 12%, 8%);
+ --Orange: hsl(25, 97%, 53%);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+    /* background-color: var(--White); */
+    
+}
+.thank{
+    display: none;
+    width: 100%;
+    text-align: center;
+
+}
+.hidden{
+    display: none;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--VeryDarkBlue);
+}
+
+a{
+    text-decoration: none;
+    color: var(--DarkBlue);
+}
+li{
+    list-style: none;
+    background-color: var(--MediumGrey);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 15px 0;
+}
+.container{
+    background-color: var(--DarkBlue);
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.logo img{
+    background-color: var(--MediumGrey);
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin:  0 0 10px 0;
+}
+h1{
+    color: var(--White);
+
+}
+p{
+    color: var(--LightGrey);
+
+}
+li a{
+    /* margin: auto; */
+}
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--Orange);
+    color: var(--White);
+    border: none;
+}
+button:hover{
+    color: var(--Orange);
+    background-color: var(--White);
+    cursor: pointer;
+}
+li:hover{
+    background-color: var(--LightGrey);
+    color: var(--White);
+    cursor: pointer;
+}
+/* li:active{
+    background-color: var(--Orange);
+    color: var(--White);
+} */
+
+.thank-selec{
+    color: var(--Orange);
+    width: 100%;
+    border-radius: 30px;
+    background-color: var(--MediumGrey);
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center; 
+}
+.thank-img{
+    text-align: center;
+}
+ 
+.heading,
+.sum{
+    text-align: center;
+}
